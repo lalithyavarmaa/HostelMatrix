@@ -1,0 +1,12 @@
+.analysis-container {
+    width: 100%;
+    height: 100%;
+    background-image: url('analysis.jpg'); /* Update the path as needed */
+    background-size: cover; /* Ensure the image covers the entire space */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Avoid repetition */
+    display: flex; /* Optional: For centering overlay content */
+    justify-content: center; /* Optional: Horizontally center overlay content */
+    align-items: center; /* Optional: Vertically center overlay content */
+  }
+  

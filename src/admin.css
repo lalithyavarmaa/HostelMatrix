@@ -1,0 +1,96 @@
+/* admin.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    margin: 0; /* Remove any default margin applied to body */
+  }
+  
+  .Admin {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw; /* Ensures full width */
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #f4f4f4; /* Set to background color for Admin */
+    overflow: hidden;
+  }
+  
+  .header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+    flex-shrink: 0;
+  }
+  
+  .dashboard-container {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    overflow: hidden;
+    height: calc(100vh - 60px); /* Adjust height based on header */
+    width: 100%; /* Ensure it spans entire width */
+  }
+  
+  .button-panel {
+    width: 200px; /* Fixed width for button panel */
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+    overflow-y: auto;
+    flex-shrink: 0; /* Prevent shrinking */
+  }
+  
+  .button-panel button {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #34495e;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .button-panel button:hover {
+    background-color: #1abc9c;
+  }
+  
+  .content-panel {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+    width: calc(100% - 240px); /* Adjust content width to fit */
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  .content h2 {
+    color: #34495e;
+  }
+  
+  .content p {
+    color: #7f8c8d;
+    font-size: 1.1rem;
+  }
+  

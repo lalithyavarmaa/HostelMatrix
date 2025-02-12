@@ -1,0 +1,104 @@
+/* Input Fields Styling */
+input[type="text"],
+input[type="number"],
+input[type="file"] {
+  width: 100%; /* Full width of the container */
+  padding: 12px; /* Add padding inside the input */
+  font-size: 1rem; /* Set font size */
+  border: 1px solid #ddd; /* Light border color */
+  border-radius: 8px; /* Rounded corners */
+  outline: none; /* Remove outline on focus */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+  margin-bottom: 15px; /* Add spacing between input fields */
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="file"]:focus {
+  border-color: #4CAF50; /* Green border on focus */
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.3); /* Light green shadow effect */
+}
+
+/* Styling for file input button */
+input[type="file"] {
+  background-color: #f9f9f9; /* Light background color */
+  color: #333; /* Text color */
+}
+
+input[type="file"]:hover {
+  background-color: #f1f1f1; /* Light hover effect */
+}
+
+input[type="file"]::-webkit-file-upload-button {
+  padding: 10px;
+  background-color: #4CAF50; /* Green background for file button */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+input[type="file"]::-webkit-file-upload-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+/* Label for Available Options */
+.available-options-label {
+    display: block;
+    font-size: 1.1rem;
+    margin-bottom: 10px; /* Adds space between label and checkboxes */
+    color: #333;
+  }
+  
+  /* Container for checkboxes */
+  .checkbox-container {
+    display: flex;
+    gap: 15px; /* Adds a gap between the checkboxes */
+    margin-bottom: 15px; /* Adds space below the checkbox container */
+  }
+  
+  /* Styling for individual checkboxes */
+  .checkbox-container input[type="checkbox"] {
+    margin-right: 5px; /* Adds a small gap between checkbox and its label */
+  }
+
+  /* Label for Laundry Service */
+.laundry-service-label {
+    display: block;
+    font-size: 1.1rem;
+    margin-bottom: 10px; /* Adds space between label and radio buttons */
+    color: #333;
+  }
+  
+  /* Container for radio buttons */
+  .laundry-service-container {
+    display: flex;
+    gap: 20px; /* Adds space between the radio buttons */
+    margin-bottom: 15px; /* Adds space below the radio button container */
+  }
+  
+  /* Styling for individual radio buttons */
+  .laundry-service-container input[type="radio"] {
+    margin-right: 5px; /* Adds space between radio button and label */
+  }
+
+  .h2{
+    justify-content: center;
+  }
+
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+    width: 100%;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  

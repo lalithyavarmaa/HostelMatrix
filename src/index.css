@@ -1,0 +1,26 @@
+/* index.css */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body.login-body {
+  background: url('hostel11.png') no-repeat center center;
+  background-size: cover;
+}
+body.adminLogin-body {
+  background: url('hostel11.png') no-repeat center center;
+  background-size: cover;
+}
+
+body.admin-body {
+  background-color: #f4f4f4; /* Background for Admin page */
+  background-image: none;
+}
+body.hostelCards-body{
+  background-color: #f4f4f4 ; /* Background for Admin page */
+  background-image: none !important;
+}
